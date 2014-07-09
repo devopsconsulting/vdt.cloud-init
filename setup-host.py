@@ -2,7 +2,7 @@ import base64
 import os
 import subprocess
 
-uuid = subprocess.check_output(["/usr/sbin/dmidecode", "-s", "system-uuid"]).strip()
+uuid = subprocess.check_output(["/usr/sbin/dmidecode", "-s", "system-uuid"]).strip().lower()
 with open("/etc/UUID.conf", "wb") as f:
     f.write(uuid)
 os.rename("/etc/hosts", "/etc/hosts.bak")
