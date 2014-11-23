@@ -6,7 +6,7 @@ Cloud init scripts for deployment.
 How does it work?
 -----------------
 
-cloudinit is a script executed on boot once (when a new vm is created to setup the vm) and can communicate with cloud hypervisors like cloudstack, opencloud and others.
+Cloudinit is a script executed on boot once (when a new vm is created to setup the vm) and can communicate with cloud hypervisors like cloudstack, opencloud and others.
 However, cloudinit can also be used with "no cloud management vm's", like Xen or KVM.
 In this case you can use the "nocloud" plugin of cloudinit, and pass on some parameters to setup the VM using the kernel commandline. For example:
 
