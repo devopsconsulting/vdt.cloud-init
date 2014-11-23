@@ -16,4 +16,4 @@ Then cloudinit will download two files:
 * vdt.cloudinit-metadata (used for general setup of the host)
 * vdt.cloudinit-userdata (used for customizing the host by it need)
 
-See the example in this repository.
+See the example in this repository, or see also http://rwmj.wordpress.com/2013/12/10/creating-a-cloud-init-config-disk-for-non-cloud-boots/
